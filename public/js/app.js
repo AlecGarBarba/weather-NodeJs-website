@@ -20,7 +20,7 @@ const fetchWeatherData = (location)=>{
             messageOne.textContent = data.error;
         }else{
             messageOne.textContent= data.location;
-            messageTwo.textContent= data.forecast;
+            messageTwo.textContent= data.forecast; 
         }
     })
 })
